@@ -2,7 +2,7 @@
 Color Picker Tool using HTML5 and Javascript
 
 #Description
-1 : A Div to show the ‘current selected color’ chosen via color 		dial(1), RGB Slider(2), SB Slider(3) or Hex input(4).
+1 : A Div to show the ‘current selected color’ chosen via color 		box(1), RGB Slider(2), SB Slider(3) or Hex input(4).
 
 2 : RGB slider to choose color with different RGB values.
 
