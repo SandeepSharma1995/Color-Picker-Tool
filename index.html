@@ -1,0 +1,72 @@
+<html>
+<head><title>COLOR PICKER BY SANDEEP SHARMA</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="javascript.js"></script>
+
+</head>
+
+<body> 
+<h1>Color Picker Tool</h1>
+
+
+<section class="left"><h3>1. current selected color</h3>
+<div id="color">
+</div>
+
+<h3>2. Adjust RGB values</h3>
+
+<div class="abc">RGB:
+   <p>R:
+      <span class="red"><input id="x1" type="range" value="0" min="0" max="255" onchange="change1()" /></span>
+     <input id="i1" value="0" type="number" min="0" max="255" onchange="display()"/>
+	</p>
+   <p>G:
+      <span class="green"><input id="x2" type="range" value="0" min="0" max="255" onchange="change1()" /></span>
+      <input id="i2" value="0" type="number" min="0" max="255" onchange="display()" />
+   </p>
+   <p>B:
+       <span class="blue"><input id="x3" type="range" value="0" min="0" max="255" onchange="change1()" /></span>
+       <input  id="i3" value="0" type="number" min="0" max="255" onchange="display()" />
+   </p>
+</div>
+
+ <h3>3. Adjust Intensity(alpha tranparency)</h3>
+<div>
+ <p>S:
+        <input type="decimal" id="a2" min="0" max="1" value="1" onchange="adjust()" />
+ </p>
+ 
+</div>
+ 
+ <h3>4. Adjust HEX value</h3>
+
+ <div class="abc">
+HEX VALUE: #<input type="text" id="hex" value="000000" onchange="show()">
+</div>
+
+</section>
+
+
+<section class="middle">  
+<center>
+ <canvas id="mycanvas1" width="300" height="300" style="border:1px solid black;">
+		 </canvas>
+<br>
+<br>
+<h3>  5. Select a color</h3>
+</center>
+ </section>
+
+
+
+<section class="right">
+<h3>6. See your color history here</h3>
+<div id="hist">
+<h4>No previous Color</h4>
+</div>
+</section>
+
+
+</body>
+</html>
