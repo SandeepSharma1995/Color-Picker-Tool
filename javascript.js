@@ -1,5 +1,5 @@
-var c =document.getElementById("mycanvas1");
-var ctx=c.getContext("2d");
+
+var ctx=document.getElementById("mycanvas1").getContext("2d");
 var grd=ctx.createLinearGradient(0,0,300,0);
 grd.addColorStop(0,"white");
 grd.addColorStop(.1,"violet");
