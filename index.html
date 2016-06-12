@@ -6,8 +6,8 @@
 
 </head>
 
-<body> 
-<h1>Color Picker Tool</h1>
+<body style="background-color:#e1e1e1"> 
+<h1>Color Picker Tool Using JavaScript and HTML5</h1>
 
 
 <section class="left"><h3>1. current selected color</h3>
@@ -33,40 +33,40 @@
 
  <h3>3. Adjust Intensity(alpha tranparency)</h3>
 <div>
- <p>S:
+ <div class="abc">S &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp:
         <input type="decimal" id="a2" min="0" max="1" value="1" onchange="adjust()" />
- </p>
+ </div>
  
 </div>
  
  <h3>4. Adjust HEX value</h3>
 
  <div class="abc">
-HEX VALUE: #<input type="text" id="hex" value="000000" onchange="show()">
+HEX VALUE:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp#<input type="text" id="hex" value="000000" onchange="show()">
 </div>
 
 </section>
 
 
-<section class="middle">  
-<center>
- <canvas id="mycanvas1" width="300" height="300" style="border:1px solid black;">
-		 </canvas>
-<br>
-<br>
-<h3>  5. Select a color</h3>
-</center>
+<section class="middle">  <h3>  5. Select a color</h3>
+<br><center><div class="abc">
+ <canvas id="mycanvas1" width="290" height="300" style="border:1px solid black;">
+		 </canvas></div></center>
+
+
  </section>
 
 
 
 <section class="right">
 <h3>6. See your color history here</h3>
-<div id="hist">
-<h4>No previous Color</h4>
+
+<br>
+<div class="abc">
+<div id="hist" ><h4>No Previous Color<h4></div>
+<table id="mytable"></table>
 </div>
 </section>
-
 
 </body>
 </html>
