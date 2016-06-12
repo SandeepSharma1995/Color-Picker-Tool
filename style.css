@@ -7,11 +7,12 @@ height:100px;
 .abc{
 border:1px solid black;
 margin:2px;
-}
+background-color:#e0e0e0;}
 
+@media screen and (min-width:770px){
 .left{
 display:inline-block;
-width:20%;
+width:25%;
 float:left;
 margin:1%;
 }
@@ -22,35 +23,27 @@ width:40%;
 float:left;
 margin:1%;
 height:575px;
-border:1px solid black;
+background-color:#e0e0e0;
+
 }
 
 .right{
-border:1px solid black;
 display:inline-block;
-width:30%;
+width:25%;
 float:left;
 height:575px;
 margin:1%;}
-
-#hist{
-text-align:center;
-height:525px;
-border:1px solid black;
 }
 
 .red{
 background:red;
-background:linear-gradient(white 0%,red 100%);
+ background:linear-gradient(white 0%,red 100%);
  }
-
 .green{
 background:green;
  background:linear-gradient(white 0%,green 100%);
  }
-
 .blue{
 background:blue;
  background:linear-gradient(white 0%,blue 100%);
 }
-
